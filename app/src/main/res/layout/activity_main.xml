@@ -6,20 +6,66 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/FC_intro"
+        android:id="@+id/FC_question"
+        android:background="@drawable/solid_color_shape"
+        android:elevation="5dp"
+        android:textColor="@color/White"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Where do permanently deleted files go in computers?"
-        android:textAlignment="center"
-        android:textSize="40sp" />
+        android:gravity="center"
+        android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/FC_firstmessage"
+        android:id="@+id/FC_answerA"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FC_question"
+        android:layout_marginTop="10dp"
+        android:background="@color/Silver"
+        android:gravity="center"
         android:text="Nowhere, it is still there."
-        android:textAlignment="center"
-        android:textSize="40sp" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/FC_answerB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FC_answerA"
+        android:layout_marginTop="10dp"
+        android:background="@color/Silver"
+        android:gravity="center"
+        android:text="Bin"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/FC_answerC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FC_answerB"
+        android:layout_marginTop="10dp"
+        android:background="@color/Silver"
+        android:gravity="center"
+        android:text="Become viruses"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/FC_answerD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FC_answerC"
+        android:layout_marginTop="10dp"
+        android:background="@color/Silver"
+        android:gravity="center"
+        android:text="Converted to something to save storage"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:visibility="visible" />
 
 </RelativeLayout>

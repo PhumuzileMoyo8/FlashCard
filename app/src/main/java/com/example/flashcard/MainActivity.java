@@ -12,12 +12,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.FC_intro).setOnClickListener(new View.OnClickListener() {
+        /**findViewById(R.id.FC_question).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                findViewById(R.id.FC_intro).setVisibility(View.INVISIBLE);
-                findViewById(R.id.FC_firstmessage).setVisibility(View.VISIBLE);
+                //findViewById(R.id.FC_question).setVisibility(View.INVISIBLE);
+                //findViewById(R.id.FC_answer).setVisibility(View.VISIBLE);
             }
         });
+
+        findViewById(R.id.FC_answer).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //findViewById(R.id.FC_answer).setVisibility(View.INVISIBLE);
+                //findViewById(R.id.FC_question).setVisibility(View.VISIBLE);
+            }
+        });**/
     }
 }
