@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FC_Screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/FC_question"
-        android:background="@drawable/solid_color_shape"
-        android:elevation="5dp"
-        android:textColor="@color/White"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:text="Where do permanently deleted files go in computers?"
+        android:background="@drawable/solid_color_shape"
+        android:elevation="5dp"
         android:gravity="center"
+        android:text="Where do permanently deleted files go in computers?"
+        android:textColor="@color/White"
         android:textSize="30sp" />
 
     <TextView
         android:id="@+id/FC_answerA"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/FC_question"
-        android:layout_marginTop="10dp"
-        android:background="@color/Silver"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/Orange"
         android:gravity="center"
         android:text="Nowhere, it is still there."
         android:textColor="@color/colorPrimaryDark"
@@ -31,11 +33,12 @@
 
     <TextView
         android:id="@+id/FC_answerB"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/FC_answerA"
-        android:layout_marginTop="10dp"
-        android:background="@color/Silver"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/Orange"
         android:gravity="center"
         android:text="Bin"
         android:textColor="@color/colorPrimaryDark"
@@ -44,11 +47,12 @@
 
     <TextView
         android:id="@+id/FC_answerC"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/FC_answerB"
-        android:layout_marginTop="10dp"
-        android:background="@color/Silver"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/Orange"
         android:gravity="center"
         android:text="Become viruses"
         android:textColor="@color/colorPrimaryDark"
@@ -57,15 +61,27 @@
 
     <TextView
         android:id="@+id/FC_answerD"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/FC_answerC"
-        android:layout_marginTop="10dp"
-        android:background="@color/Silver"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/Orange"
         android:gravity="center"
         android:text="Converted to something to save storage"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
         android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/toggle_choices_visibility"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/FC_answerD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-167dp"
+        android:src="@drawable/ic_closedeye" />
+
+
 
 </RelativeLayout>
