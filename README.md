@@ -11,6 +11,9 @@ Flashcard is an app that can display a question, and on tap display the answer t
 
 <img src="https://github.com/PhumuzileMoyo8/FlashCard/blob/master/FlashCardAppwalkthrough.gif" width=200><br>
 
+## Second version Walkthrough
+<img src="https://github.com/PhumuzileMoyo8/FlashCard/blob/master/FlashCardAppwalkthrough2.gif" width=200><br>
+
 
 ## Required
 - [x] Create New Project in Android Studio
