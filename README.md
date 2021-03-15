@@ -8,7 +8,7 @@
 ### Description
 In this lab we'll continue improving our Flashcards app by adding new features on top of everything you built in the previous lab. We'll create a new screen where users can create new flashcards right from the app. Whenever you want to study something new you can just create a new flashcard!
 
-### App Walk-though
+### App Walk-though 3
 
 <img src="https://github.com/PhumuzileMoyo8/FlashCard/blob/master/FlashCardAppwalkthrough3.gif" width=200><br>
 
