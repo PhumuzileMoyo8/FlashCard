@@ -44,6 +44,16 @@
         android:layout_marginBottom="5dp"
         android:src="@drawable/ic_addcard" />
 
+    <ImageView
+        android:id="@+id/NextCard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@id/FC_answer"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="283dp"
+        android:src="@drawable/ic_next" />
 
 
 </RelativeLayout>
