@@ -12,7 +12,9 @@
     <color name="Olive">#808000</color>
     <color name="Orange">#FFA500</color>
     <color name="Silver">#C0C0C0</color>
-    <color name="Magenta">#FF00FF</color>
+    <color name="Light_Purple">#bf7fbf</color>
+    <color name="Dark_Purple">#190019</color>
+    <color name="Purple_Shade">#D7834183</color>
     <color name="DarkOlive">#303000</color>
     <color name="Olive2">#4E4E00</color>
     <color name="Green">#008000</color>
